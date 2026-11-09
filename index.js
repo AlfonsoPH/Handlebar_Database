@@ -25,8 +25,28 @@ app.get('/login', function(req,res) {
 	res.render('login.hbs');
 });
 
+app.get('/home', function(req,res) {
+	res.render('home.hbs');
+});
+
+app.post('/login2', function(req,res) {
+	var email = req.body.login_email;
+	var password = req.body.login_password;
+
+	console.log(email + ' ' + password);
+
+	var userInitials = email[0];
+	var username = email.split('@')[0];
+
+	var details = {
+		user_initials: userInitials,
+		username: username
+	}
+
+	res.render('home.hbs', details);
+});
 
 app.listen(port, hostname, function() {
 	console.log(`Server running at: `);
 	console.log('http://' + hostname + ':' + port);
-});z`
+});
