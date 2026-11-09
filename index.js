@@ -46,6 +46,24 @@ app.post('/login2', function(req,res) {
 	res.render('home.hbs', details);
 });
 
+app.post('/register', async function(req,res) {
+	var firstName = req.body.firstName;
+	var lastName = req.body.lastName;
+	var email = req.body.email;
+	var password = req.body.password;
+
+	console.log(firstName + ' ' + lastName + ' ' + email + ' ' + password);
+
+	try {
+		await db.insertOne('users', { firstName: firstName, lastName: lastName, email: email, password: password });
+		console.log('Users inserted successfully');
+	} catch (err) {
+		console.error('Error inserting user: ', err);
+		res.status(500).send('Error registering user');
+	}
+
+});
+
 app.listen(port, hostname, function() {
 	console.log(`Server running at: `);
 	console.log('http://' + hostname + ':' + port);
