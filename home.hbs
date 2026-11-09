@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBAPDEV - Community Feed</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="/home" class="brand-logo"> CBAPDEV </a>
+            <nav class="nav-tabs">
+                <div class="user-pill">
+                    <div class="user-avatar-sm" id="user-initials">{{user_initials}}</div>
+                    <span id="nav-username">{{username}}</span>
+                </div>
+                <a href="/login" class="btn-logout">
+                    <i class="fa-solid fa-right-from-bracket"></i> Logout
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="home-container">
+
+            <!-- Create Post Card -->
+            <div class="post-card">
+                <h3><i class="fa-solid fa-pen-nib"></i> Create New Post</h3>
+                <form id="create-post-form">
+                    <textarea id="post-content" rows="3" required placeholder="What's on your mind today?"></textarea>
+                    <div class="post-form-footer">
+                        <button type="submit" class="btn-primary btn-post">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>Publish Post</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Community Feed Section -->
+            <div class="feed-section">
+                <div class="feed-header">
+                    <h3><i class="fa-solid fa-stream"></i> Community Feed</h3>
+                    <span id="post-count" class="post-counter">0 posts</span>
+                </div>
+                <div id="posts-feed" class="posts-list">
+                    <!-- Posts here -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
