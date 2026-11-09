@@ -3,6 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const hbs = require('hbs');
 
+const db = require('./models/db.js');
+
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false })); // Tells us that we're using this framework to encode the data in the body of the request.
 app.use(express.static('public')); // Tells us that we're using this framework to serve static files from the public directory.

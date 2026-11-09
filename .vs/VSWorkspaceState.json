@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\models",
     "\\public",
     "\\public\\css",
     "\\views"
   ],
-  "SelectedNode": "\\views\\register.hbs",
+  "SelectedNode": "\\models\\db.js",
   "PreviewInSolutionExplorer": false
 }

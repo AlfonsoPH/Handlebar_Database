@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\home.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\home.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\index.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\register.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\register.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\home.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\home.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\login.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,47 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\index.js",
-              "RelativeDocumentMoniker": "index.js",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\index.js",
-              "RelativeToolTip": "index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-11-09T14:40:14.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "home.hbs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\home.hbs",
-              "RelativeDocumentMoniker": "views\\home.hbs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\home.hbs",
-              "RelativeToolTip": "views\\home.hbs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-09T14:53:22.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "login.hbs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\login.hbs",
-              "RelativeDocumentMoniker": "views\\login.hbs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\login.hbs",
-              "RelativeToolTip": "views\\login.hbs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwC4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-09T14:51:42.508Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -81,7 +46,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "register.hbs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\register.hbs",
+              "RelativeDocumentMoniker": "views\\register.hbs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\register.hbs",
+              "RelativeToolTip": "views\\register.hbs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-09T15:12:48.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\index.js",
+              "RelativeDocumentMoniker": "index.js",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\index.js",
+              "RelativeToolTip": "index.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwEUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-09T14:40:14.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "home.hbs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\home.hbs",
+              "RelativeDocumentMoniker": "views\\home.hbs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\home.hbs",
+              "RelativeToolTip": "views\\home.hbs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-09T14:53:22.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "login.hbs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\login.hbs",
+              "RelativeDocumentMoniker": "views\\login.hbs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\views\\login.hbs",
+              "RelativeToolTip": "views\\login.hbs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-09T14:51:42.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Handlebar_Database\\.env",
               "RelativeDocumentMoniker": ".env",
